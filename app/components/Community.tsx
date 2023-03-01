@@ -30,7 +30,7 @@ function Community() {
           </Text>
         </VStack>
       </RevealWrapper>
-      <Container maxW="6xl" mt={20}>
+      <Container maxW="6xl" mt={8}>
         <RevealWrapper
           origin="left"
           delay={200}

@@ -18,20 +18,24 @@ const Navbar = () => (
       bg="gray.200"
     >
       <SimpleGrid
-        m={{ base: "-3.5"}}
+        m={{ base: "-3.5" }}
         spacing={{ base: "0", lg: "780px" }}
         p="3"
-        templateColumns={{ base: "1fr", md: "repeat(2, 1fr)", lg: "repeat(2, 1fr)" }}
+        templateColumns={{
+          base: "1fr",
+          md: "repeat(2, 1fr)",
+          lg: "repeat(2, 1fr)",
+        }}
       >
-        <Box>
+        <Box my="2" mx={{ base: "auto", md: "0" }}>
           <Image src="/Logo.webp" alt="logo"></Image>
         </Box>
 
         <Box>
-          <Grid fontWeight="bold" fontSize="3xl" color="pink.700">
+          <Grid fontWeight="bold" fontSize="3xl" color="pink.700" h="100%">
             <HStack
               gap={{ base: "4", lg: "12" }}
-              ml={{ base: "4", lg: "12" }}
+              mx="auto"
               mt={{ base: "4", lg: "2" }}
             >
               <Link href="/">Home</Link>

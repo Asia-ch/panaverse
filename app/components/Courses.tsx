@@ -33,7 +33,7 @@ const Courses = () => (
     <SimpleGrid
       columns={{ sm: 1, md: 2, lg: 3 }}
       spacing={{ base: 4, md: 8 }}
-      mt={5}
+      mt={8}
       mx={{ base: "auto", md: 12 }}
     >
       <Link href="/course">

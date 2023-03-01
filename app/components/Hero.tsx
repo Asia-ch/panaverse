@@ -55,8 +55,8 @@ const Hero = () => {
             </Link>
             <Link href="https://www.piaic.org/">
               <Button
-                colorScheme="gray"
-                variant="solid"
+                colorScheme="pink"
+                variant="outline"
                 size="lg"
                 fontWeight="extrabold"
               >

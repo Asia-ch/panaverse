@@ -66,7 +66,7 @@ const Footer = () => (
     </Container>
     <Flex bg="gray.200" p={3}>
       <Container maxW={1500}>
-        <Text color="gray.900" fontSize="md" textAlign="center" mt={3}>
+        <Text color="gray.900" fontSize="md" textAlign="center" my="3">
           © 2023 copyright and Licensing — @Ayesha Chaudhry
         </Text>
       </Container>
