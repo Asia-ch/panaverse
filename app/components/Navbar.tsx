@@ -13,13 +13,13 @@ import { RevealWrapper } from "next-reveal";
 const Navbar = () => (
   <RevealWrapper delay={200} duration={1000} distance="500px" reset={true}>
     <Container
-      maxW={{ base: "full", md: "40%", lg: "100%" }}
+      maxW={{ base: "full", md: "90%", lg: "90%" }}
       mx="auto"
-      bg="gray.200"
+     
     >
       <SimpleGrid
         m={{ base: "-3.5" }}
-        spacing={{ base: "0", lg: "780px" }}
+        spacing={{ base: "0"}}
         p="3"
         templateColumns={{
           base: "1fr",

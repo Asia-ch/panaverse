@@ -35,6 +35,7 @@ const Courses = () => (
       spacing={{ base: 4, md: 8 }}
       mt={8}
       mx={{ base: "auto", md: 12 }}
+      
     >
       <Link href="/course">
         <Card maxW={{ base: "full", sm: "lg" }}>
